@@ -1,0 +1,25 @@
+/* ./your-css-folder/styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Font Added */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Custom Class Create  */
+
+.menu-li::after {
+    transition: all ease-in-out .3s;
+    background: scroll #ffc300;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    margin-top: 10px;
+}
+
+.menu-li:hover::after {
+    width: 100%;
+}
