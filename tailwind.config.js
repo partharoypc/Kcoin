@@ -14,9 +14,10 @@ module.exports = {
         extend: {
             colors: {
 
-                "kcoin-01": "#272524",
+                "kcoin-01": "#202020",
                 "kcoin-02": "#ffc300",
                 "kcoin-03": "#f3f4f8",
+                "kcoin-04": "#272727",
             },
         },
     },
