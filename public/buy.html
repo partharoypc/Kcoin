@@ -5,11 +5,511 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Market Demo</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
+    <!-- ===========NavBar Section Start=============== -->
+    <section class=" bg-kcoin-01">
+        <div class=" bg-kcoin-01 relative">
+            <div class=" container mx-auto max-w-6xl px-4">
+                <div class=" flex flex-wrap items-center justify-items-center ">
+                    <div class="w-1/6">
+                        <a href=""><img src="/public/assest/home/logo.png" alt="" srcset=""></a>
+                    </div>
+                    <div class="w-5/6">
+                        <ul class=" hidden lg:flex flex-1 justify-end  text-white  space-x-3">
+                            <li><a class="text-kcoin-02 border-b-2 border-kcoin-02 pb-3" href="">Home</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">iK Finance</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">Personal</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">Merchant</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">Advantages</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">Where to buy</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">Where to spend</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">Roadmap</a></li>
+                            <li><a class=" hover:text-kcoin-02 menu-li" href="">ICO</a></li>
+                        </ul>
+                        <!-- Mobile Manu  START-->
+                        <div id="mobile-bar" class="float-right lg:hidden">
+                            <a href="#"><i class="fa fa-bars text-2xl text-white"></i></a>
+                        </div>
+                    </div>
 
+
+                </div>
+
+            </div>
+        </div>
+        <div class="absolute container mx-auto max-w-6xl bg-gray-600 z-50">
+
+            <div class="hidden lg:hidden text-white  w-full px-4" id="mobile-menu">
+                <ul class="lg:block items-start gap-2 pb-4">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">iK Finance</a></li>
+                    <li><a href="">Personal</a></li>
+                    <li><a href="">Merchant</a></li>
+                    <li><a href="">Advantages</a></li>
+                    <li><a href="">Where to buy</a></li>
+                    <li><a href="">Where to spend</a></li>
+                    <li><a href="">Roadmap</a></li>
+                    <li><a href="">ICO</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--============NavBar Section End==================-->
+
+    <!-- Main Hero Section Start -->
+    <section class=" bg-kcoin-01 relative">
+
+        <div class="  pt-16">
+            <div class="container mx-auto max-w-6xl px-4">
+                <div class=" flex flex-wrap items-center">
+                    <div class=" w-full lg:w-1/2">
+                        <p class=" text-2xl uppercase text-kcoin-03">IK COIN</p>
+                        <p class=" py-6 text-5xl text-kcoin-03 font-bold">Compre ik Coin<br> <span class=" text-kcoin-02">online</span> </p>
+                        <p class="pr-8 text-lg text-justify text-kcoin-03">
+                            incentivar a compra da moeda também por causa do ICO
+                        </p>
+                        <div class=" font-normal text-xl py-20 ">
+                            <a class="py-1 px-3 sm:py-2 sm:px-5 md:py-3 md:px-8 border-2 border-kcoin-02  rounded-full bg-transparent text-kcoin-02" href="">Baixe o whitepaper</a>
+                            <a class="py-1 px-3 sm:py-2 sm:px-5 md:py-3 md:px-8 border-2 border-kcoin-02  rounded-full bg-kcoin-02 text-black" href="">Compre IK Coin</a>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <img src="/public/assest/buy/buy-banner-img.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" hidden sm:flex absolute right-0 top-0">
+            <img src="/public/assest/buy/icon-1.png" alt="">
+        </div>
+    </section>
+
+    <!-- Main Hero Section End -->
+
+    <!--============Adquira Section Start==================-->
+    <section class=" bg-kcoin-01">
+        <div class="  py-32">
+            <div class="container mx-auto max-w-6xl px-4">
+                <div class=" flex flex-wrap items-center">
+                    <div class=" w-full lg:w-1/2">
+                        <p class=" py-8 text-4xl text-kcoin-03 font-bold">Adquira a moeda <br> <span class=" text-kcoin-02"> no nosso ICO</span> </p>
+                        <p class="pr-8 text-xl text-justify text-kcoin-03">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicaba. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============Adquira Section End==================-->
+
+    <!--============Investir Section Start==================-->
+    <section class=" bg-kcoin-01">
+        <div class="container mx-auto max-w-6xl px-4">
+            <div class="flex flex-wrap  justify-between  py-8 relative ">
+                <div class=" w-full md:w-1/3  lg:w-2/5">
+                    <div class=" text-center md:text-left">
+                        <p class=" text-kcoin-03 text-2xl  md:text-2xl lg:text-4xl font-bold ">Investir na iK Coin <br> <span class=" text-kcoin-02"> é rápido e seguro</span></p>
+                    </div>
+                </div>
+
+                <div class="hidden lg:flex absolute bottom-0 -left-20">
+                    <img class=" w-96 h-96 " src="/public/assest/buy/dotted-partten.png" alt="">
+                </div>
+                <div class=" w-full md:w-2/3  lg:w-3/5 ">
+                    <!-- ===================== Element No 01========================= -->
+                    <div class=" row">
+                        <div class=" flex flex-wrap justify-between items-center pb-6 lg:pb-12 ">
+                            <div class="w-full md:w-1/6 lg:w-1/12 pb-4">
+                                <div class=" h-12 w-12 bg-kcoin-02 rounded-full overflow-hidden items-center">
+                                    <h1 class=" text-2xl font-bold pl-4 pt-2">1</h1>
+
+                                </div>
+                            </div>
+                            <div class=" w-full md:w-5/6 lg:w-11/12 ">
+                                <div class=" border border-kcoin-03 rounded-md bg-kcoin-04 p-2 lg:p-6">
+                                    <div class=" flex flex-wrap justify-items-end items-center">
+                                        <div class="w-4/6">
+                                            <p class="text-base sm:text-2xl font-semibold text-kcoin-03">Conecte a sua <br> carteira <span class=" text-kcoin-02 underline"> Metamask </span></p>
+                                        </div>
+                                        <div class="w-1/6">
+                                            <div class=" bg-kcoin-02 border border-kcoin-02 h-20 w-1 "></div>
+                                        </div>
+                                        <div class="w-1/6">
+                                            <img src="/public/assest/buy/fox-icon.png" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="mx-3">
+                                    <div class="bg-kcoin-02 hover:bg-white rounded-b-full w-full h-2">
+                                    </div>
+                                </div>
+
+                                <p class=" text-kcoin-02 pl-4">Nenhuma carteira encontrada (Ex: Metamask)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===================== Element No 02========================= -->
+                    <div class=" row">
+                        <div class=" flex flex-wrap justify-between items-center pb-6 lg:pb-12 ">
+                            <div class="w-full md:w-1/6 lg:w-1/12 pb-4">
+                                <div class=" h-12 w-12 bg-kcoin-02 rounded-full overflow-hidden items-center">
+                                    <h1 class=" text-2xl font-bold pl-4 pt-2">2</h1>
+
+                                </div>
+                            </div>
+                            <div class=" w-full md:w-5/6 lg:w-11/12 ">
+                                <div class=" border border-kcoin-03 rounded-md bg-kcoin-04 p-2 lg:p-6">
+                                    <div class=" flex flex-wrap justify-items-end items-center">
+                                        <div class="w-4/6">
+                                            <p class="text-base  font-semibold text-kcoin-03">Adicione o Token<br> <span class=" text-kcoin-02 underline sm:text-xl"> ADICIONAR AO METAMASK </span></p>
+                                        </div>
+                                        <div class="w-1/6">
+                                            <div class=" bg-kcoin-02 border border-kcoin-02 h-20 w-1 "></div>
+                                        </div>
+                                        <div class="w-1/6">
+                                            <img src="/public/assest/buy/ik-icon.png" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="mx-3">
+                                    <div class="bg-kcoin-02 hover:bg-white rounded-b-full w-full h-2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===================== Element No 03========================= -->
+                    <div class=" row">
+                        <div class=" flex justify-between items-center pb-2 lg:pb-4 ">
+                            <div class="w-1/12 ">
+                                <div class=" h-12 w-12 bg-kcoin-02 rounded-full overflow-hidden items-center">
+                                    <h1 class=" text-2xl font-bold pl-4 pt-2">2</h1>
+
+                                </div>
+                            </div>
+                            <div class="w-11/12 ">
+                                <div class=" ml-auto">
+
+
+                                    <p class=" text-kcoin-03 pl-4">Nenhuma carteira encontrada (Ex: Metamask)</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===================== Element No 04========================= -->
+                    <div class=" row">
+                        <div class=" flex flex-wrap justify-between items-center pb-6 lg:pb-12 ">
+                            <div class="opacity-0 w-ful lg:w-1/12">
+                                <div class=" h-12 w-12 bg-kcoin-02 rounded-full overflow-hidden items-center">
+                                    <h1 class=" text-2xl font-bold pl-4 pt-2">2</h1>
+
+                                </div>
+                            </div>
+                            <div class=" w-full lg:w-11/12 ">
+                                <div class=" flex flex-wrap justify-center items-center">
+                                    <div class="w-full md:w-1/5">
+                                        <div class=" w-full">
+                                            <div class="border border-kcoin-03 rounded-md bg-kcoin-04 px-8 py-4 text-center items-center ">
+                                                <div class=" flex flex-col items-center justify-items-center">
+                                                    <img class="" src="/public/assest/buy/fox-icon.png" alt="">
+                                                    <p class=" text-kcoin-03">Metamask</p>
+                                                </div>
+                                            </div>
+                                            <div class="mx-1">
+                                                <div class="bg-kcoin-02 hover:bg-white rounded-b-full w-full h-2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" w-full md:w-4/5">
+                                        <div class=" px-4">
+                                            <div class="border border-kcoin-03 rounded-md bg-kcoin-04 text-center px-8 py-4 ">
+                                                <div class=" flex items-center justify-between p-2">
+                                                    <img class="" src="/public/assest/buy/mb-ivs.png" alt="">
+                                                    <img class="" src="/public/assest/buy/mb-way.png" alt="">
+                                                    <img class="" src="/public/assest/buy/visa.png" alt="">
+                                                    <img class="" src="/public/assest/buy/bank.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="mx-1">
+                                                <div class="bg-kcoin-02 hover:bg-white rounded-b-full w-full h-2">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--============Investir Section End==================-->
+
+    <!--============Fazer Partner Section Start==================-->
+    <section>
+        <div class=" bg-kcoin-03">
+            <div class="container mx-auto max-w-6xl px-4">
+                <div class=" flex flex-wrap items-center py-8">
+                    <div class=" w-full lg:w-1/2">
+                        <div class="pr-8">
+                            <p class=" py-8 text-4xl text-kcoin-01 font-bold">Fazer parte da iK Coin <br> é fazer parte de um novo <br> <span class=" text-kcoin-02"> conceito de criptomoeda</span> </p>
+                            <p class="text-xl text-kcoin-01">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicaba. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <img class="" src="/public/assest/buy/coin-chart.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--============Fazer Partner Section End==================-->
+
+    <!--============Onde Gester Section Start==================-->
+    <section class=" bg-kcoin-01 relative">
+        <div class="hidden  lg:flex absolute left-2 top-16">
+            <img class=" w-28 h-32" src="/public/assest/home/leaft-6.png" alt="">
+        </div>
+        <div class="container mx-auto max-w-6xl px-4 py-20">
+            <div class=" text-center pb-20">
+                <h1 class=" text-kcoin-02 text-3xl md:text-5xl font-bold pb-6">Onde gastar a moeda</h1>
+                <p class=" text-kcoin-03 text-xl">Falar do preço baixo da moeda durante esta fase do lançamento.</p>
+            </div>
+            <div class="flex flex-wrap justify-items-center text-center pb-8 ">
+
+                <div class=" w-full sm:w-1/2 lg:w-1/4">
+                    <div class="p-2 ">
+                        <div class="flex flex-wrap rounded-2xl bg-kcoin-04 py-20">
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Ecossistema iK Tech Solutions</h1>
+                            <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                        <div class=" mx-3">
+                            <div class="bg-kcoin-02 rounded-b-full w-full h-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full sm:w-1/2 lg:w-1/4">
+                    <div class=" p-2">
+                        <div class="flex flex-wrap justify-center rounded-2xl bg-kcoin-04 py-20">
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Compras <br> diárias</h1>
+                            <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                        <div class=" mx-3">
+                            <div class="bg-kcoin-02 rounded-b-full w-full h-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full sm:w-1/2 lg:w-1/4">
+                    <div class=" p-2">
+                        <div class="flex flex-wrap justify-center rounded-2xl bg-kcoin-04 py-20">
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Recebimentos <br>diários</h1>
+                            <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                        <div class=" mx-3">
+                            <div class="bg-kcoin-02 rounded-b-full w-full h-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full sm:w-1/2 lg:w-1/4">
+                    <div class=" p-2">
+                        <div class="flex flex-wrap justify-center items-center rounded-2xl bg-kcoin-04 py-20">
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Turismo <br> Crypto</h1>
+                            <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                        <div class=" mx-3">
+                            <div class="bg-kcoin-02 rounded-b-full w-full h-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="hidden  xl:flex absolute right-12 bottom-16 ">
+            <img class=" w-16 h-16" src="/public/assest/home/leaft-2.png" alt="">
+        </div>
+    </section>
+    <!--============Onde Gester Section End==================-->
+
+    <!-- ===========  Footer Section Start ============ -->
+    <section>
+        <div class=" bg-kcoin-02 relative z-10 overflow-hidden">
+            <div class=" container mx-auto max-w-6xl px-4 ">
+                <div class=" flex flex-wrap py-12">
+                    <div class="w-full md:w-3/12">
+                        <h1 class=" text-gray-800 font-bold text-xl pb-4">Navigation</h1>
+
+
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Home
+                        </a>
+                        </div>
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Team
+                        </a>
+                        </div>
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Support
+                        </a>
+                        </div>
+
+                    </div>
+                    <div class="w-full md:w-5/12">
+                        <h1 class=" text-gray-800 font-bold text-xl pb-4 pt-6 md:pt-0">Learn</h1>
+
+
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Blog
+                        </a>
+                        </div>
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Whitepaper
+                        </a>
+                        </div>
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Videos
+                        </a>
+                        </div>
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            FAQs
+                        </a>
+                        </div>
+                        <div class="flex items-center cursor-pointer">
+
+                            <div>
+                                <div class="block h-2 w-2 rounded-full border-2 border-black hover:border-white ">
+                                </div>
+                            </div>
+                            <a class="pb-1 pl-6 text-gray-800 hover:text-white " href="">
+                            Press
+                        </a>
+                        </div>
+
+                    </div>
+                    <div class="w-full md:w-4/12">
+                        <h1 class=" text-gray-800 font-bold text-xl pb-8 pt-6 md:pt-0">Social</h1>
+
+                        <div class=" flex items-center space-x-2 pb-12">
+                            <a href="">
+                                <i class="fab fa-facebook text-gray-700 text-2xl hover:text-white"></i>
+                            </a>
+                            <a class=" " href="">
+                                <i class="fab fa-instagram text-gray-700 text-3xl hover:text-white"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-telegram text-gray-700 text-2xl hover:text-white"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-reddit text-gray-700 text-2xl hover:text-white"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-twitter text-gray-700 text-2xl hover:text-white"></i>
+                            </a>
+                        </div>
+
+                        <h1 class=" text-gray-800 font-bold text-xl pb-6">Legal</h1>
+
+
+                        <div class="text-gray-700 space-x-4 ">
+                            <a class="hover:text-white" href="">Terms and Condition</a>
+
+                            <a class="hover:text-white" href="">Privecy Policy</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class=" border-t border-gray-200">
+                    <div class=" flex flex-wrap justify-between items-center py-12">
+                        <div class=" text-gray-700">
+                            <a href=""><img class=" inline-block" src="/public/assest/home/footer-logo.png" alt=""><span>Copyright <i class="far fa-copyright"></i>  2022 ik Coin</span></a>
+                        </div>
+                        <div id="btn-scroll" class="">
+                            <i class="fas fa-chevron-circle-up fa-2x text-gray-700"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============  Footer Section End ============ -->
 </body>
 
 </html>
