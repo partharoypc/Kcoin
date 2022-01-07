@@ -15,7 +15,7 @@
     <!-- NavBar Section Start -->
     <section class=" bg-kcoin-01">
         <div class=" bg-kcoin-01 relative">
-            <div class=" container mx-auto max-w-6xl px-4">
+            <div class=" container mx-auto max-w-6xl px-4 py-4">
                 <div class=" flex flex-wrap items-center justify-items-center ">
                     <div class="w-1/6">
                         <a href=""><img src="/public/assest/home/logo.png" alt="" srcset=""></a>
@@ -46,7 +46,7 @@
         <div class="absolute container mx-auto max-w-6xl bg-gray-600 z-50">
 
             <div class="hidden lg:hidden text-white  w-full px-4" id="mobile-menu">
-                <ul class="lg:block items-start gap-2 pb-4">
+                <ul class="lg:block items-start  pb-4">
                     <li><a href="">Home</a></li>
                     <li><a href="">iK Finance</a></li>
                     <li><a href="">Personal</a></li>
@@ -65,22 +65,29 @@
 
     <!-- Hero Section Start -->
     <section class=" bg-kcoin-01 py-4">
+        <div class=" md:relative overflow-hidden">
+            <div class="hidden lg:absolute lg:block z-0">
+                <img class=" pl-2" src="/public/assest/home/dotted-pattran.png" alt="">
 
-        <div class="container mx-auto max-w-6xl px-4">
-            <div class="flex justify-between items-center">
-                <div class="w-1/2 relative overflow-hidden">
-                    <img class=" absolute z-0" src="/public/assest/home/dotted-pattran.png" alt="">
-                    <img class="relative z-50" src="/public/assest/home/coin.png" alt="">
-                </div>
-                <div class="w-1/2 mx-4 ">
-                    <div class="max-w-xl text-right">
-                        <div class="text-white pb-10 ">
-                            <h1 class="font-semibold text-4xl">Faça as suas compras e pagamentos com a ik Coin</h1>
-                            <h2 class="text-3xl">ou ik Coin a mudança nos seus pagamentos</h2>
+            </div>
+
+            <div class="container mx-auto max-w-6xl px-4">
+                <div class="flex flex-wrap justify-between items-center">
+                    <div class="w-full md:w-1/2">
+                        <div class="md:relative z-10">
+                            <img class="h-72 w-72 md:w-full md:h-full" src="/public/assest/home/coin.png" alt="">
                         </div>
-                        <div class="flex lg:flex-row flex-col mt-8 lg:mt-10 font-bold text-lg  text-center pb-8">
-                            <a class="w-full lg:w-1/2  mx-auto bg-kcoin-01 font-black border-kcoin-02 border-2 hover:bg-kcoin-02 hover:text-kcoin-04 duration-300 text-kcoin-02 py-3 lg:py-4 rounded-full" href="#">Baixe o whihtepaper</a>
-                            <a class="w-full lg:w-1/2 lg:ml-6 mt-2 lg:mt-0 block mx-auto  font-black border-kcoin-02 border-2 bg-kcoin-02 hover:bg-transparent hover:text-kcoin-02 text-kcoin-01 py-3 lg:py-4 rounded-full duration-300" href="#">Compare IK Coin</a>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <div class="max-w-xl text-center md:text-right">
+                            <div class="text-white pb-10 ">
+                                <h1 class="font-semibold text-2xl md:text-4xl">Faça as suas compras e pagamentos com a ik Coin</h1>
+                                <h2 class="text-xl md:text-3xl">ou ik Coin a mudança nos seus pagamentos</h2>
+                            </div>
+                            <div class="flex lg:flex-row flex-col mt-8 lg:mt-10 font-bold text-lg  text-center pb-8">
+                                <a class="w-full lg:w-1/2  mx-auto bg-kcoin-01 font-black border-kcoin-02 border-2 hover:bg-kcoin-02 hover:text-kcoin-04 duration-300 text-kcoin-02 py-3 lg:py-4 rounded-full" href="#">Baixe o whihtepaper</a>
+                                <a class="w-full lg:w-1/2 lg:ml-6 mt-2 lg:mt-0 block mx-auto  font-black border-kcoin-02 border-2 bg-kcoin-02 hover:bg-transparent hover:text-kcoin-02 text-kcoin-01 py-3 lg:py-4 rounded-full duration-300" href="#">Compare IK Coin</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,39 +98,41 @@
 
 
 
-    <!-- Payment Section Start -->
-    <section class=" relative overflow-hidden">
-        <div class="container mx-auto max-w-6xl px-4">
-            <div class=" flex flex-wrap items-center justify-between">
-                <div class=" w-full lg:w-1/2 text-kcoin-01 py-20">
-                    <h2 class="text-5xl  pb-8 ">
-                        Use iK Coin para os seus <span class="font-bold text-5xl">pagamentos e recebimentos diários.</span>
-                    </h2>
-                    <p class=" font-medium pb-6 text-xl ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore
-                        et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                    <p class=" font-medium pb-6 text-xl ">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore et dolore magnam aliquam.
-                    </p>
+    <!-- ================= Payment Section Start===================== -->
+    <section class=" bg-kcoin-03">
+        <div class=" md:relative">
+            <div class="container mx-auto">
+                <div class=" flex flex-wrap items-center justify-between ">
+                    <div class="row">
 
-                    <div class=" font-bold text-xl pt-8 pb-10 ">
-                        <a class="py-3 px-8 border-4 border-kcoin-02  rounded-full bg-kcoin-02 text-black " href="">Saiba mais sobre a ik Finance</a>
+                        <div class=" px-6 w-full  mr-auto md:w-7/12 text-center md:text-left lg:py-20 py-16 ">
+                            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl  pb-8 ">
+                                Use iK Coin para os seus <span class="font-bold text-5xl">pagamentos e recebimentos diários.</span>
+                            </h2>
+                            <p class=" font-medium pb-4 text-xl ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut
+                                labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <p class=" font-medium pb-4 text-xl ">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore et dolore magnam aliquam.
+                            </p>
+
+                            <div class=" font-bold text-xl py-6 ">
+                                <a class="py-2 px-8 md:py-3 md:px-16 border-4 border-kcoin-02  rounded-full bg-kcoin-02 text-black hover:bg-white hover:text-kcoin-02 " href="">CTA</a>
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-5/12  md:h-full md:absolute md:top-0 md:right-0">
+                            <span class="absolute hidden md:block top-0 -left-6 w-6 h-28 bg-kcoin-02"></span>
+                            <img class=" w-full md:h-full object-cover object-center" src="/public/assest/home/payment-success.png" alt="">
+                        </div>
                     </div>
                 </div>
-
-                <div class=" w-full lg:w-1/2 absolute right-0">
-                    <span class=" bg-kcoin-02 h-20 w-6 top-0"></span>
-                    <img class=" mx-4" src="/public/assest/home/payment-success.png" alt="">
-
-                </div>
-
             </div>
         </div>
-
     </section>
-    <!-- Payment Section End -->
+    <!-- ==================== Payment Section End ======================= -->
 
-    <!-- Compre Section Start -->
+    <!--===================== Compre Section Start ==========================-->
     <section>
         <div class=" relative" style="background-image: url('/public/assest/home/icobanner.jpg'); background-repeat: no-repeat; background-size:;">
             <div class="hidden  md:block absolute -top-24 -left-10 ">
@@ -135,58 +144,66 @@
 
                     </div>
                     <div class=" w-full lg:w-1/2 pl-6">
-                        <h1 class=" text-kcoin-02 text-5xl font-bold pb-6">Compre a moeda durante o nosso ICO</h1>
-                        <p class=" text-kcoin-03 text-3xl pb-16">Falar do preço baixo da moeda durante esta fase do lançamento.</p>
-                        <a class=" bg-kcoin-02 py-5 px-16 rounded-full font-bold text-xl" href="">CTA</a>
+                        <h1 class=" text-kcoin-02 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pb-6">Compre a moeda durante o nosso ICO</h1>
+                        <p class=" text-kcoin-03 text-xl sm:text-2xl pb-16">Falar do preço baixo da moeda durante esta fase do lançamento.</p>
+                        <a class=" bg-kcoin-02 py-2 px-8 md:py-5 md:px-16 rounded-full border-2 border-kcoin-02 font-bold text-xl hover:bg-kcoin-03 hover:text-kcoin-02 duration-300" href="">CTA</a>
                     </div>
                 </div>
             </div>
 
-            <div class="hidden  md:block absolute right-32 bottom-12 ">
+            <div class="hidden  md:block md:absolute right-32 bottom-12 ">
                 <img class=" h-20 w-20 " src="/public/assest/home/leaft-7.png" alt="">
             </div>
 
         </div>
     </section>
-    <!-- Compre Section End -->
+    <!--======================= Compre Section End =========================-->
 
+    <!--========================== Finance Section Start ==========================-->
+    <section class=" bg-kcoin-03">
+        <div class=" md:relative">
+            <div class="container mx-auto">
+                <div class=" flex flex-wrap items-center justify-between ">
+                    <div class="row">
 
-    <!-- Finance Section Start -->
-    <section class=" relative overflow-hidden">
-        <div class="container mx-auto max-w-6xl px-4">
-            <div class=" flex flex-wrap items-center justify-between">
-                <div class=" w-full lg:w-1/2 text-kcoin-01 py-32">
-                    <h2 class=" font-bold text-4xl pb-8 ">
-                        iK Finance
-                    </h2>
-                    <p class=" font-medium pb-6 text-xl ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore
-                        et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                    <p class=" font-medium pb-6 text-xl ">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore et dolore magnam aliquam.
-                    </p>
+                        <div class=" px-6 w-full  mr-auto md:w-7/12 text-center md:text-left lg:py-20 py-16 ">
+                            <h2 class=" font-bold text-2xl md:text-3xl lg:text-4xl pb-8 ">
+                                iK Finance
+                            </h2>
+                            <p class=" font-medium pb-4 text-xl ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut
+                                labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <p class=" font-medium pb-6 text-base ">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore et dolore magnam aliquam.
+                            </p>
 
-                    <div class=" font-bold text-xl pt-8 pb-10 ">
-                        <a class="py-3 px-8 border-4 border-kcoin-02  rounded-full bg-kcoin-02 text-black " href="">Saiba mais sobre a ik Finance</a>
+                            <div class=" font-bold text-base pt-4 pb-6">
+                                <a class="py-3 px-8 border-4 border-kcoin-02  rounded-full bg-kcoin-02 text-black hover:bg-white hover:text-kcoin-02 " href="">Saiba mais sobre a ik Finance</a>
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-5/12  md:h-full md:absolute md:top-0 md:right-0">
+                            <span class="absolute hidden md:block top-0 -left-6 w-6 h-28 bg-kcoin-02"></span>
+                            <img class=" w-full md:h-full object-cover object-top" src="/public/assest/home/ik-finance.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-
-                <div class=" w-full lg:w-1/2 absolute right-0">
-                    <img class=" mx-4" src="/public/assest/home/ik-finance.jpg" alt="">
-
-                </div>
-
             </div>
         </div>
-
     </section>
-    <!-- Finance Section End -->
+    <!--=========================== Finance Section End =============================-->
 
 
     <!-- ===========Onde User Section Start============ -->
     <section class=" bg-kcoin-01 relative">
         <div class="hidden  lg:block absolute left-2 top-4">
             <img class=" w-96 h-56" src="/public/assest/home/dotted-pattran-2.png" alt="">
+        </div>
+        <div class="  hidden z-10 sm:absolute sm:block top-48 -left-4">
+            <img src="/public/assest/home/leaft-2.png" alt="">
+        </div>
+        <div class="  hidden z-10 lg:absolute lg:block bottom-32 right-4">
+            <img src="/public/assest/home/leaft-2.png" alt="">
         </div>
 
         <div class="container mx-auto max-w-6xl px-4 py-20">
@@ -199,7 +216,7 @@
                 <div class=" w-full sm:w-1/2 lg:w-1/4">
                     <div class=" p-2">
                         <div class="flex flex-wrap justify-center rounded-2xl bg-kcoin-04 py-20">
-                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Ecossistema iK Tech Solutions</h1>
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Ecossistema <br> iK Tech Solutions</h1>
                             <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
                             </p>
                         </div>
@@ -212,7 +229,7 @@
                 <div class=" w-full sm:w-1/2 lg:w-1/4">
                     <div class="p-2">
                         <div class="flex flex-wrap justify-center rounded-2xl bg-kcoin-04 py-20">
-                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Ecossistema iK Tech Solutions</h1>
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8"> Compras <br> diárias</h1>
                             <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
                             </p>
                         </div>
@@ -225,7 +242,7 @@
                 <div class=" w-full sm:w-1/2 lg:w-1/4">
                     <div class=" p-2">
                         <div class="flex flex-wrap justify-center rounded-2xl bg-kcoin-04 py-20">
-                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Ecossistema iK Tech Solutions</h1>
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Recebimentos <br> diários</h1>
                             <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
                             </p>
                         </div>
@@ -238,7 +255,7 @@
                 <div class=" w-full sm:w-1/2 lg:w-1/4">
                     <div class=" p-2">
                         <div class="flex flex-wrap justify-center rounded-2xl bg-kcoin-04 py-20">
-                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Ecossistema iK Tech Solutions</h1>
+                            <h1 class=" text-kcoin-02 text-2xl font-bold pb-8">Turismo <br> Crypto</h1>
                             <p class=" text-center text-xl mx-2 text-kcoin-03">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo.
                             </p>
                         </div>
@@ -628,39 +645,41 @@
     </section>
     <!--=========== Comece Section End ==============-->
 
+    <!-- ===========   Porquê escolhemos Section Start ============ -->
+    <section class=" bg-kcoin-03">
+        <div class=" md:relative">
+            <div class="container mx-auto">
+                <div class=" flex flex-wrap items-center justify-between ">
+                    <div class="row">
 
-    <!-- ===========  Usar Section Start ============ -->
-    <section class=" relative overflow-hidden">
-        <div class="container mx-auto max-w-6xl px-4">
-            <div class=" flex flex-wrap items-center justify-between">
-                <div class=" w-full lg:w-1/2 text-kcoin-01 pt-32">
-                    <h2 class=" font-bold text-4xl pb-16">
-                        Porquê escolhemos o Algarve como a região crypto?
-                    </h2>
-                    <p class=" font-medium pb-6 text-base ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore
-                        et dolore magnam aliquam quaerat voluptatem.
-                    </p>
-                    <p class=" font-medium pb-8 text-base ">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore et dolore magnam aliquam.
-                    </p>
-                    <a class=" font-bold text-xl " href=""><i class="fas fa-arrow-right text-kcoin-02 pr-2"></i> SABE MAIS</a>
-                    <div class=" font-bold text-xl pt-20 pb-20">
-                        <a class="py-3 px-8 border-4 border-kcoin-02  rounded-full bg-kcoin-02 text-black " href="">Compre IK Coin</a>
-                        <a class="py-3 px-8 border-4 border-kcoin-02  rounded-full bg-transparent text-kcoin-02 " href="">Baixe o whitepaper</a>
+                        <div class=" px-6 w-full ml-auto md:w-7/12 text-center md:text-left lg:py-20 py-8 ">
+                            <h2 class=" font-bold text-2xl md:text-3xl lg:text-4xl pb-10">
+                                Porquê escolhemos o Algarve como a região crypto?
+                            </h2>
+                            <p class=" font-medium pb-3 lg:pb-6 text-base ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut
+                                labore et dolore magnam aliquam quaerat voluptatem.
+                            </p>
+                            <p class=" font-medium pb-4 text-base ">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt ut labore et dolore magnam aliquam.
+                            </p>
+                            <a class=" font-bold text-xl hover:text-kcoin-02 " href=""><i class="fas fa-arrow-right text-kcoin-02 pr-2"></i> SABE MAIS</a>
+                            <div class="flex lg:flex-row flex-col mt-8 lg:mt-10 font-bold text-lg  text-center pb-8">
+                                <a class="w-full lg:w-1/2  mx-auto bg-transparent font-black border-kcoin-02 border-2 hover:bg-kcoin-02 hover:text-kcoin-04 duration-300 text-kcoin-02 py-3 lg:py-4 rounded-full" href="#">Baixe o whihtepaper</a>
+                                <a class="w-full lg:w-1/2 lg:ml-6 mt-2 lg:mt-0 block mx-auto  font-black border-kcoin-02 border-2 bg-kcoin-02 hover:bg-transparent hover:text-kcoin-02 text-kcoin-01 py-3 lg:py-4 rounded-full duration-300" href="#">Compare IK Coin</a>
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-5/12  md:h-full md:absolute md:top-0 md:left-0">
+                            <span class="absolute hidden md:block top-0 -right-6 w-6 h-32 bg-kcoin-02"></span>
+                            <img class=" w-full md:h-full object-cover object-top" src="/public/assest/home/sabe-maise-banner.png" alt="">
+                        </div>
                     </div>
                 </div>
-
-                <div class=" w-full lg:w-1/2 absolute right-0">
-                    <img class=" mx-6" src="/public/assest/home/sabe-maise-banner.png" alt="">
-
-                </div>
-
             </div>
         </div>
-
     </section>
+    <!-- ===========   Porquê escolhemos Section End ============ -->
 
-    <!-- ===========  Usar Section End ============ -->
     <!-- ===========  Investa Section Start ============ -->
     <section>
         <div class=" bg-kcoin-01 relative">
@@ -670,9 +689,9 @@
 
             <div class="container mx-auto max-w-6xl px-4">
                 <div class=" flex flex-wrap items-center">
-                    <div class=" w-full md:w-1/2">
+                    <div class=" w-full md:w-1/2 pb-8">
                         <p class=" py-8 text-4xl text-kcoin-02 font-bold">Invista já na iK Coin </p>
-                        <p class="pr-8 text-xl text-kcoin-03">
+                        <p class="md:pr-8 text-base sm:text-lg md:text-xl text-kcoin-03">
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem beatae vitae dicta sunt explicaba. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia s qui ratione s modi tempora incidunt
                         </p>
                     </div>
@@ -690,7 +709,7 @@
         <div class=" bg-kcoin-02 relative z-10 overflow-hidden">
             <div class=" container mx-auto max-w-6xl px-4 ">
                 <div class=" flex flex-wrap py-12">
-                    <div class=" w-3/12">
+                    <div class="w-full md:w-3/12">
                         <h1 class=" text-gray-800 font-bold text-xl pb-4">Navigation</h1>
 
 
@@ -726,8 +745,8 @@
                         </div>
 
                     </div>
-                    <div class=" w-5/12">
-                        <h1 class=" text-gray-800 font-bold text-xl pb-4">Learn</h1>
+                    <div class="w-full md:w-5/12">
+                        <h1 class=" text-gray-800 font-bold text-xl pb-4 pt-6 md:pt-0">Learn</h1>
 
 
                         <div class="flex items-center cursor-pointer">
@@ -782,10 +801,10 @@
                         </div>
 
                     </div>
-                    <div class=" w-4/12">
-                        <h1 class=" text-gray-800 font-bold text-xl pb-8">Social</h1>
+                    <div class="w-full md:w-4/12">
+                        <h1 class=" text-gray-800 font-bold text-xl pb-8 pt-6 md:pt-0">Social</h1>
 
-                        <div class=" flex items-center space-x-4 pb-12">
+                        <div class=" flex items-center space-x-2 pb-12">
                             <a href="">
                                 <i class="fab fa-facebook text-gray-700 text-2xl hover:text-white"></i>
                             </a>
@@ -806,7 +825,7 @@
                         <h1 class=" text-gray-800 font-bold text-xl pb-6">Legal</h1>
 
 
-                        <div class="text-gray-700 space-x-2 ">
+                        <div class="text-gray-700 space-x-4 ">
                             <a class="hover:text-white" href="">Terms and Condition</a>
 
                             <a class="hover:text-white" href="">Privecy Policy</a>
@@ -821,14 +840,14 @@
                             <a href=""><img class=" inline-block" src="/public/assest/home/footer-logo.png" alt=""><span>Copyright <i class="far fa-copyright"></i>  2022 ik Coin</span></a>
                         </div>
                         <div id="btn-scroll" class="">
-                            <a href=""><i class="fas fa-chevron-circle-up fa-2x text-gray-700"></i></a>
+                            <i class="fas fa-chevron-circle-up fa-2x text-gray-700"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ===========  Footer Section End ============ -->
+    <!-- =============  Footer Section End ============ -->
 </body>
 
 </html>
